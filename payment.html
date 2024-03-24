@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odilo Motors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center; /* Center align the text */
+        }
+
+        header {
+            background-color: #333; /* Change background color */
+            color: #fff;
+            padding: 2px 0;
+            text-align: left; /* Align header text to left */
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Center align vertically */
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Increase margin top */
+            background-color: #333; /* Change background color */
+            padding: 5px 0; /* Adjust padding */
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px;
+            transition: color 0.10s;
+            font-size: 18px; /* Adjust font size */
+        }
+
+        nav a:hover {
+            color: #ffd700; /* Change the color on hover, e.g., gold */
+        }
+
+        section {
+            display: flex;
+            justify-content: center; /* Center align items horizontally */
+            padding: 50px;
+            text-align: left; /* Left align text */
+        }
+
+        .container {
+            max-width: 400px;
+            padding: 40px;
+            background-color: #d3f9d8; /* Light green background */
+            border: 5px solid #8bc34a; /* Light green border */
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: darkgray;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #ffd700;
+        }
+
+        .socialmedia {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            size: 200px;
+        }
+
+        .socialmedia a {
+            font-size: 30px;
+            margin: 0 28px;
+        }
+
+        .fa-facebook {
+            color: #3b5998;
+        }
+
+        .fa-twitter {
+            color: #00acee;
+        }
+
+        .fa-instagram {
+            color: #e4405f;
+        }
+
+        .fa-envelope {
+            color: #fff; /* Set email icon color to white */
+        }
+
+        /* Adjust image size and add borders */
+        .vehicle-img {
+            width: 350px; /* Set image width */
+            height: 350px; /* Set image height */
+            border: 5px solid #333;
+            border-radius: 8px;
+        }
+        header img {
+            width: 150px; /* Set width */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Add margin for spacing */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Add company logo here -->
+        <img src="logo.png" alt="Company Logo">
+        <nav>
+           <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="Team.html">Team</a>
+            <a href="contactus.html">Contact Us</a>        </nav>
+    </header>
+
+    <section>
+        <div class="container" id="body">
+            <h1>Select Payment Method</h1>
+            <ul>
+                <li><button><i class="fab fa-cc-visa"></i> Pay with VISA Card</button></li>
+                <li><button><i class="fas fa-mobile-alt"></i> Pay with MTN Mobile Money</button></li>
+                <li><button><i class="fas fa-wallet"></i> Other Payment Methods</button></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/hirwa.odillo/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/od1llo__thegreat/" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/hirwa-odillo-5a3a8123b/" class="fa fa-linkedin"></a>
+        </div>
+        <p>&copy; 2024 Odilo Copernic. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

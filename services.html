@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odilo Motors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center; /* Center align the text */
+            overflow-y: scroll; /* Enable vertical scrolling */
+        }
+
+        header {
+            background-color: #333; /* Change background color */
+            color: #fff;
+            padding: 2px 0;
+            text-align: left; /* Align header text to left */
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Center align vertically */
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Increase margin top */
+            background-color: #333; /* Change background color */
+            padding: 5px 0; /* Adjust padding */
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px;
+            transition: color 0.10s;
+            font-size: 18px; /* Adjust font size */
+        }
+
+        nav a:hover {
+            color: #ffd700; /* Change the color on hover, e.g., gold */
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap; /* Allow flex items to wrap */
+            justify-content: center; /* Center align items horizontally */
+            padding: 20px;
+            text-align: left; /* Left align text */
+            max-height: 70vh; /* Set maximum height */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        .vehicle-img {
+            width: 500px; /* Set image width */
+            height: 500px; /* Set image height */
+            border: 5px solid #333;
+            border-radius: 8px;
+            margin: 10px; /* Add margin */
+        }
+
+        .car-description {
+            background-color: #d3f9d8; /* Light green background */
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px;
+            text-decoration-style: ;
+            font-weight: bold;
+        }
+
+        .car-price {
+            background-color: #fff; /* White background for price box */
+            padding: 5px;
+            border: 2px solid #333; /* Add border */
+            border-radius: 5px;
+            margin-top: 5px; /* Add margin */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #ffd700;
+        }
+
+        .socialmedia {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            size: 200px;
+        }
+
+        .socialmedia a {
+            font-size: 30px;
+            margin: 0 28px;
+        }
+
+        .fa-facebook {
+            color: #3b5998;
+        }
+
+        .fa-twitter {
+            color: #00acee;
+        }
+
+        .fa-instagram {
+            color: #e4405f;
+        }
+
+        .fa-envelope {
+            color: #fff; /* Set email icon color to white */
+        }
+
+        header img {
+            width: 150px; /* Set width */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Add margin for spacing */
+        }
+
+        .x {
+            text-decoration: none;
+            background-color: darkgreen;
+            color: white;
+            border: 3px;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Add company logo here -->
+    <img src="logo.png" alt="Company Logo">
+    <nav>
+       <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="Team.html">Team</a>
+            <a href="contactus.html">Contact Us</a>
+    </nav>
+</header>
+
+<section>
+    <div class="car-description">
+        <img src="benz.jpg" alt="Benz" class="vehicle-img">
+        <div class="car-price">Price:$50,000
+            <p>Rent: $1,000/day</p>
+            <a href="orderform.html" class="x">Order</a></div>
+        <p>Mercedes Benz</p>
+    </div>
+    <div class="car-description">
+        <img src="bmw.jpg" alt="BMW" class="vehicle-img">
+        <div class="car-price">Price: $45,000<p>Rent: $900/day</p>
+            <a href="orderform.html" class="x">Order</a></div>
+        <p>BMW </p>
+    </div>
+    <div class="car-description">
+        <img src="toyota.jpg" alt="Toyota" class="vehicle-img">
+        <div class="car-price">Price: $35,000 <p>Rent: $800/day</p>
+            <a href="orderform.html" class="x">Order</a></div>
+        <p>Toyota</p>
+    </div>
+    <div class="car-description">
+        <img src="hyundai.jpg" alt="Hyundai" class="vehicle-img">
+        <div class="car-price"> Price: $30,000 <p>Rent: $700/day</p>
+        <a href="orderform.html" class="x">Order</a> </div>
+        <p>Hyundai</p>
+    </div>
+
+  
+
+    
+
+</section>
+
+<footer>
+    <div class="socialmedia">
+        <a href="https://www.facebook.com/hirwa.odillo/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/od1llo__thegreat/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/hirwa-odillo-5a3a8123b/" class="fa fa-linkedin"></a>
+    </div>
+    <p>&copy; 2024 Odilo Copernic. All rights reserved.</p>
+</footer>
+
